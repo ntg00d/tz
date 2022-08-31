@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  
+  width: 170px;
+  height: 48px;
+
+  font-size: 17px;
+  border: .1px solid rgb(199, 199, 199);
+  transition: all .3s;
+}
+
+button:hover {
+  background-color: rgb(199, 199, 199);
+}
+
+.App {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+  margin: 50px 0;
+}
+
+.category__list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.category__list > button {
+  margin-top: -1px;
+}
+
+.chart {
+  width: 900px;
+}
