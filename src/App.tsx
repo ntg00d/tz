@@ -3,7 +3,7 @@ import {useFetchProductsQuery} from './store/api/products'
 import {IProduct} from './models/api/product'
 import Chart from './components/Chart'
 import Dropdown from './components/Dropdown'
-import Spiner from './components/Spiner'
+import Spinner from './components/Spinner'
 
 const App = () => {
   const categories = ['smartphones', 'laptops']
@@ -30,7 +30,7 @@ const App = () => {
         <Chart products={products}/>
       </>}
 
-      {isLoading && <Spiner/>}
+      {isLoading && <Spinner/>}
     </div>
   )
 }

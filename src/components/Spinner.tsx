@@ -1,7 +1,7 @@
 import {FC} from 'react'
 import {TailSpin} from 'react-loader-spinner'
 
-const Spiner: FC = () => {
+const Spinner: FC = () => {
     return (
         <TailSpin
             height="80"
@@ -12,4 +12,4 @@ const Spiner: FC = () => {
     )
 }
 
-export default Spiner
+export default Spinner
